@@ -25,6 +25,7 @@
       src="https://kit.fontawesome.com/c68185a667.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Quote Generator - Sinesipho Sono</title>
   </head>
   <body>
@@ -33,7 +34,7 @@
         <h1 class="text-center mb-5">Welcome to the AI Quote Generator</h1>
       </header>
       <main>
-        <form class="text-center mb-5">
+        <form class="text-center mb-5" id="quote-generator">
           <input
             type="text"
             placeholder="Enter the topic of the quote"
@@ -44,13 +45,7 @@
           />
           <input type="submit" class="prompt-button" />
         </form>
-        <div class="container quote mb-5">
-          Insert quote here
-          <br />
-          Insert quote here
-          <br />
-          Insert quote here
-        </div>
+        <div class="container quote mb-5" id="quote"></div>
       </main>
       <div class="d-block text-center">
         <footer>
