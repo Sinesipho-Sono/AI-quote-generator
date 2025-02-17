@@ -1,1 +1,82 @@
+:root {
+  --heading-font-family: "Quintessential", serif;
+  --default-font-family: "Supermercado One", serif;
+}
 
+body {
+  background-color: #e1eacd !important;
+  color: #01352c !important;
+}
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 48px !important;
+}
+
+form {
+  padding: 30px;
+  background-color: #61b390;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 2px 2px 30px#7f9b7c;
+}
+
+.prompt-input {
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid #01352c;
+  width: 70%;
+  font-size: 16px;
+}
+.prompt-button {
+  padding: 17px 20px;
+  width: 120px;
+  border-radius: 30px;
+  background: #01352c;
+  color: #bad8b6;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 2px 3px 10px #3a4039;
+  &:hover {
+    background: #bad8b6;
+    padding: 15px 20px;
+    color: #01352c;
+    border: 3px solid #01352c;
+    transition: all 150ms ease-in-out;
+  }
+}
+
+.quote {
+  background-color: #61b390;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  border-left: 3px solid #01352c;
+  max-width: 600px !important;
+  margin: 0 auto;
+  text-align: left !important;
+}
+
+.footer-icons {
+  background-color: #01352c;
+  color: #7f9b7c;
+  padding: 10px;
+  border-radius: 30px;
+  &:hover {
+    background: #7f9b7c;
+    color: #01352c;
+    transition: all 150ms ease-in-out;
+  }
+}
+
+.project-link {
+  color: #61b390;
+}
