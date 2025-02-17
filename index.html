@@ -30,24 +30,27 @@
     <title>AI Quote Generator - Sinesipho Sono</title>
   </head>
   <body>
-    <div class="container text-center mt-5">
+    <div class="container mt-5">
       <header>
         <h1 class="text-center mb-5">Welcome to the AI Quote Generator</h1>
       </header>
       <main>
-        <form class="text-center mb-5" id="quote-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the quote"
-            required
-            autofocus
-            autocomplete="off"
-            class="prompt-input"
-            id="userPrompt"
-          />
-          <input type="submit" class="prompt-button" />
-        </form>
-        <div class="container quote mb-5" id="quote"></div>
+        <div class="form-container mb-5">
+          <form class="text-center" id="quote-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of the quote"
+              required
+              autofocus
+              autocomplete="off"
+              class="prompt-input"
+              id="userPrompt"
+            />
+            <input type="submit" class="prompt-button" />
+          </form>
+          <div class="hint">i.e Work, gym, career or love</div>
+        </div>
+        <div class="container quote mb-5 hidden" id="quote"></div>
       </main>
       <div class="d-block text-center">
         <footer>
