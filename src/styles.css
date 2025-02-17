@@ -91,6 +91,29 @@ h1 {
 .project-link {
   color: #61b390;
 }
+
+@media (max-width: 578px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  .hint {
+    font-size: 10px !important;
+  }
+  .prompt-input {
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    font-size: 12px;
+  }
+  .prompt-button {
+    padding: 10px;
+    width: 100px;
+
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
