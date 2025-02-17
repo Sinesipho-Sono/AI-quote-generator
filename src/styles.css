@@ -57,12 +57,16 @@ form {
   background-color: #61b390;
   color: white;
   padding: 20px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   border-left: 3px solid #01352c;
   max-width: 600px !important;
   margin: 0 auto;
   text-align: left !important;
+}
+
+.quote strong {
+  color: #01352c;
 }
 
 .footer-icons {
