@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #e1eacd !important;
+  background-color: #f9f9f9 !important;
   color: #01352c !important;
 }
 .container {
@@ -20,7 +20,7 @@ h1 {
 
 .form-container {
   padding: 20px;
-  background-color: #61b390;
+  background-color: #ebcbae;
   border-radius: 10px;
   margin: 0 auto;
   max-width: 600px;
@@ -37,7 +37,7 @@ h1 {
 .prompt-input {
   padding: 15px;
   border-radius: 30px;
-  border: 2px solid #01352c;
+  border: 2px solid #8f8787;
   width: 70%;
   font-size: 16px;
 }
@@ -45,51 +45,51 @@ h1 {
   padding: 17px 20px;
   width: 120px;
   border-radius: 30px;
-  background: #01352c;
-  color: #bad8b6;
+  background: #975a5e;
+  color: white;
   margin-left: 10px;
   font-size: 16px;
   border: none;
-  box-shadow: 2px 3px 10px #3a4039;
+  box-shadow: 2px 3px 10px #975a5e;
   &:hover {
-    background: #bad8b6;
+    background: #f9f9f9;
     padding: 15px 20px;
-    color: #01352c;
-    border: 3px solid #01352c;
+    color: black;
+    border: 3px solid #975a5e;
     transition: all 150ms ease-in-out;
   }
 }
 
 .quote {
-  background-color: #61b390;
-  color: white;
+  background-color: #ebcbae;
+  color: black;
   padding: 20px;
   font-size: 20px;
   line-height: 1.5;
-  border-left: 3px solid #01352c;
+  border-left: 3px solid #975a5e;
   max-width: 600px !important;
   margin: 0 auto;
   text-align: left !important;
 }
 
 .quote strong {
-  color: #01352c;
+  color: #ebcbae;
 }
 
 .footer-icons {
-  background-color: #01352c;
-  color: #7f9b7c;
+  background-color: #ebcbae;
+  color: #f9f9f9;
   padding: 10px;
   border-radius: 30px;
   &:hover {
-    background: #7f9b7c;
-    color: #01352c;
+    background: #f9f9f9;
+    color: #975a5e;
     transition: all 150ms ease-in-out;
   }
 }
 
 .project-link {
-  color: #61b390;
+  color: #975a5e;
 }
 
 @media (max-width: 578px) {
